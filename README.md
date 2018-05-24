@@ -11,3 +11,5 @@ git clone https://github.com/Ache1123/ssallbackup
 cd ssallbackup     
 chmod +x shadowsocks-all.sh   
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log  
+# uninstall way
+./shadowsocks-all.sh uninstall
